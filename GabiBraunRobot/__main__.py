@@ -84,7 +84,7 @@ buttons = [
 
 
 InlineKeyboardButton(
-            text="(人◕‿◕) 𝕊𝕌ℙℙ𝕆ℝ𝕋 (•◡•)", url="https://telegram.dog/Lucy_Heartfilia_support"
+            text="(人◕‿◕) 𝕊𝕌ℙℙ𝕆ℝ𝕋 (•◡•)", url="https://telegram.dog/LucyHelpSupport"
         ),
 
     ],
