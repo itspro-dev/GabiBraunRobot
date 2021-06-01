@@ -53,55 +53,55 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hey There!` [👩‍💼](https://telegra.ph/file/0ed48df18f4175d61b5d8.jpg) `My name is` *Gabi Braun*
-`I am an Anime Themed group management bot.
-Build by The Ghost Hunter and managed by Falco Grice for Your Telegram Group , I specialize in managing anime and similar themed groups.
-You can find my list of available commands with! Hit` *🔐Commands*   
+`𝙷𝚎𝚢 𝚃𝚑𝚎𝚛𝚎!` [👩‍💼](https://telegra.ph/file/cb7d19dc04371dd81b747.jpg) `My name is` *𝙻𝚞𝚌𝚢 𝙷𝚎𝚊𝚛𝚝𝚏𝚒𝚕𝚒𝚊*
+`𝙸 𝚊𝚖 𝚊𝚗 𝙰𝚗𝚒𝚖𝚎 𝚃𝚑𝚎𝚖𝚎𝚍 𝚐𝚛𝚘𝚞𝚙 𝚖𝚊𝚗𝚊𝚐𝚎𝚖𝚎𝚗𝚝 𝚋𝚘𝚝💙
+Build by 𝙸𝚝𝚜  ☆ 𝚙𝚛𝚘 and managed by 𝙻𝚒𝚝𝚎 𝚈𝚊𝚐𝚊𝚖𝚒 for Your Telegram Group , I specialize in managing anime and similar themed groups.
+𝚈𝚘𝚞 𝚌𝚊𝚗 𝚏𝚒𝚗𝚍 𝚖𝚢 𝚕𝚒𝚜𝚝 𝚘𝚏 𝚊𝚟𝚊𝚒𝚕𝚊𝚋𝚕𝚎 𝚌𝚘𝚖𝚖𝚊𝚗𝚍𝚜 𝚠𝚒𝚝𝚑! 𝙷𝚒𝚝` *📚𝙲𝚘𝚖𝚖𝚊𝚗𝚍𝚜*   
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD GABI TO YOUR GROUP ➕️",url="t.me/Gabi_Braun_Robot?startgroup=true"),
+            text="⭐🌟 A͙D͙D͙ M͙E͙ I͙N͙ Y͙O͙U͙R͙ G͙R͙O͙U͙P͙ 🌟⭐",url="t.me/Lucy_Heartfilia_Robot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(
-              text="🔐 Command & Help", callback_data="help_back"),
+              text="🔐 ☞ 𝙲𝚘𝚖𝚖𝚊𝚗𝚍 & 𝙷𝚎𝚕𝚙", callback_data="help_back"),
      
     ],
     [     InlineKeyboardButton(
-            text="🎦 H.S.A Group", url="https://telegram.dog/Hindisubsanimes"),
+            text="<(_ 💡_*)> ñð†åßlê Grðµþ.", url="https://telegram.dog/NotableDiscussion"),
     
     ],
     [
         InlineKeyboardButton(
-            text="📮 Update Channel", url="https://telegram.dog/EldianGabi_UpdateChannel"),
+            text="📮 ☞ 𝚄𝚙𝚍𝚊𝚝𝚎 𝙲𝚑𝚊𝚗𝚗𝚎𝚕", url="https://telegram.dog/lucyupdates"),
     ],
     [
         InlineKeyboardButton(
-            text="📑 Loges", url="https://t.me/Gabi_Support_Log"),
+            text="📑 𝙻𝚘𝚐𝚜", url="https://t.me/Lucylogs"),
           
 
 
 InlineKeyboardButton(
-            text="🐱 SUPPORT", url="https://telegram.dog/GabiHelpSupport"
+            text="(人◕‿◕) 𝕊𝕌ℙℙ𝕆ℝ𝕋 (•◡•)", url="https://telegram.dog/Lucy_Heartfilia_support"
         ),
 
     ],
     [
         InlineKeyboardButton(
-                    text="🗄️ Source Code", url="https://github.com/Falco-Grice/GabiBraunRobot"
+                    text="🗄️ Source Code", url="https://github.com/"
         ),
     ],
 ]
 
 
 HELP_STRINGS = """
-`Hey there! My name is` [Gabi Braun]("https://telegra.ph/file/8cab4bb122cf76702b06d.jpg") 
+`Hey there! My name is` [Lucy Heartfilia]("https://telegra.ph/file/8cab4bb122cf76702b06d.jpg") 
 I'm a Eldian and help admins manage their groups with Some Powerful Titans! `Have a look at the following for an idea of some of the things I can help you with.`"""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project via [Paytm](#) or by contacting @The_Ghost_Hunter\
+ You can support the project via [Paytm](#) or by contacting @callme_pro\
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -348,7 +348,7 @@ def gabi_about_callback(update, context):
     query = update.callback_query
     if query.data == "gabi_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *Gabi*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *Lucy*, a powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
@@ -356,8 +356,8 @@ def gabi_about_callback(update, context):
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
                  \n\n_shasa's licensed under the GNU General Public License v3.0_
-                 \nHere is the [💾Repository](https://github.com/Falco-Grice/GabiBraunRobot).
-                 \n\nIf you have any question about *Gabi*, let us know at .""",
+                 \nHere is the [💾Repository](https://github.com/).
+                 \n\nIf you have any question about *Lucy*, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -383,8 +383,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..👩‍💼 I'm *gabi*
-                 \nHere is the [Source Code](https://github.com/HuntingBots/AsunaRobot) .""",
+            text=""" Hi..👩‍💼 I'm *Lucy*
+                 \nHere is the [Source Code](https://github.com/HuningBots/Asnaobot) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
